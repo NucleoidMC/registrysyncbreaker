@@ -1,0 +1,11 @@
+{
+	"required": false,
+	"package": "xyz.nucleoid.registrysyncbreaker.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"RegistrySyncManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

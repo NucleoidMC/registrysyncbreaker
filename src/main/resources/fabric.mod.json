@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "registrysyncbreaker",
+	"version": "${version}",
+	"name": "Registry Sync Breaker",
+	"description": "Disables Fabric's registry sync server side. For usage with Polymer and ViaVersion",
+	"authors": [
+		"Patbox"
+	],
+	"contact": {
+		"homepage": "https://nucleoid.xyz",
+		"sources": "https://github.com/NucleoidMC/registrysyncbreaker"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"mixins": [
+      "registrysyncbreaker.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"fabric-api": "*"
+	}
+}
